@@ -66,7 +66,6 @@ submButton.disabled = true;
 let userAnswer = allQuestions[questionCounter].userAnswer;
 let score = allQuestions[questionCounter].score;
 
-// Quiz function
 let quiz = function quiz() {
   let singleQuestion = allQuestions[questionCounter];
 
