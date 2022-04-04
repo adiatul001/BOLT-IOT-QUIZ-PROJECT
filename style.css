@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 300;
+  text-align: left;
+}
+
+.main-div {
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  background-color: lightgray;
+}
+
+.inner-div {
+  width: 65%;
+  border-radius: 3px;
+  ;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 40px lightsteelblue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.button {
+  width: 65%;
+  border-radius: 3px;
+  ;
+  background-color: black;
+  padding: 5px;
+  box-shadow: 40px lightsteelblue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-small;
+}
+
+.inner-div h2 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin: 10px 0 40px 0;
+}
+
+.inner-div li {
+  font-size: 1.5rem;
+  margin-top: 1.0rem;
+  list-style: none;
+}
+
+.head {
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+input {
+  cursor: pointer;
+}
+
+
+#Next {
+  background-color: lightgray;
+  color: black;
+  border: none;
+  padding: 15px 32px;
+  border-radius: 3px;
+  margin-right: 320px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#Previous {
+  background-color: lightgray;
+  color: black;
+  border: none;
+  padding: 15px 32px;
+  border-radius: 3px;
+  margin-right: 325px;
+  margin-left: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#submit {
+  background-color: lightgray;
+  color: black;
+  border: none;
+  padding: 15px 32px;
+  border-radius: 3px;
+  margin: 10px;
+  margin-right: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+#Next:hover {
+  background-color: olivedrab;
+}
+
+#submit:hover {
+  background-color: olivedrab;
+}
+
+#Previous:hover {
+  background-color: olivedrab;
+}
+
+
+#progressBar {
+  width: 24rem;
+  height: 1.8rem;
+  border: 0.3rem solid purple;
+  border-radius: 2.3rem;
+  margin-top: 1.5rem;
+  background-color: #fff;
+}
+
+#progressBarFull {
+  height: 1.2rem;
+  border-radius: 2.3rem;
+  background-color: purple;
+  width: 0%;
+}
