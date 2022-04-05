@@ -6,24 +6,27 @@
   text-align: left;
 }
 
+header{
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
 .main-div {
   justify-content: center;
   align-items: center;
   padding-top: 30px;
-  background-color: lightgray;
 }
 
 .inner-div {
   width: 65%;
   border-radius: 3px;
-  ;
-  background-color: white;
   padding: 15px;
-  box-shadow: 40px lightsteelblue;
   display: block;
   margin-left: auto;
   margin-right: auto;
-
+  background-color:beige;
+  box-shadow: 10px 10px 8px #888888;
 }
 
 .button {
@@ -32,11 +35,12 @@
   ;
   background-color: black;
   padding: 5px;
-  box-shadow: 40px lightsteelblue;
   display: block;
   margin-left: auto;
   margin-right: auto;
   font-size: x-small;
+  box-shadow: 10px 10px 8px #888888;
+
 }
 
 .inner-div h2 {
@@ -99,30 +103,26 @@ input {
 
 
 #Next:hover {
-  background-color: olivedrab;
+  background-color: green;
 }
 
 #submit:hover {
-  background-color: olivedrab;
+  background-color: green;
 }
 
 #Previous:hover {
-  background-color: olivedrab;
+  background-color: green;
 }
 
 
 #progressBar {
-  width: 24rem;
-  height: 1.8rem;
-  border: 0.3rem solid purple;
-  border-radius: 2.3rem;
-  margin-top: 1.5rem;
-  background-color: #fff;
+  width: 100%;
+  border: 4px solid green;
+  margin-bottom: 25px;
 }
 
 #progressBarFull {
-  height: 1.2rem;
-  border-radius: 2.3rem;
-  background-color: purple;
+  height: 40px;
+  background-color: green;
   width: 0%;
 }

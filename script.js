@@ -1,52 +1,32 @@
 let allQuestions = [
   {
-    question: "Q1. What is the full form of RAM ?",
-    choices: [
-      "Random Access Memory",
-      "Run Aceapt Memory",
-      "Randomely Access Memory",
-      "None of these",
-    ],
+    question: "Q1. What is the capital of India?",
+    choices: ["New Delhi", "New York", "New Jersey", "India has no capital"],
 
     correctAnswer: 0,
   },
   {
-    question: "Q2. What is the full form of CPU?",
-    choices: [
-      "Counter Program Unit",
-      "Central Processing Unit",
-      "Central Preloaded Unit",
-      "None of these",
-    ],
+    question: "Q2. What is the capital of Maharashtra?",
+    choices: ["Nagpur", "Mumbai", "Aurangabad", "Pune"],
 
     correctAnswer: 1,
   },
   {
-    question: "Q3. What is the full form of e-mail",
-    choices: [
-      "Electronic Mail",
-      "Electrical Mail",
-      "Engine Mail",
-      "None of these",
-    ],
+    question: "Q3. What is the capital of West Bengal?",
+    choices: ["Burdawan", "Asansol", "Siliguri", "Kolkata"],
 
-    correctAnswer: 0,
+    correctAnswer: 3,
   },
 
   {
-    question: "Q4. What is the full form of HTML",
-    choices: [
-      "Hello My Land",
-      "Hyper Text Markup Language",
-      "All the above",
-      "None of these",
-    ],
+    question: "Q4. What is the capital of Telangana?",
+    choices: ["Warangal", "Hyderabad", "Karimnagar", "Nizamabad"],
 
     correctAnswer: 1,
   },
   {
-    question: "Q5. What is the full form of JS",
-    choices: ["Jabha", "Java language", "JavaScript", "None of these"],
+    question: "Q5. What is the capital of Tamil Nadu",
+    choices: ["Coimbatore", "Tiruchirappalli", "Chennai", "Madurai"],
 
     correctAnswer: 2,
   },
